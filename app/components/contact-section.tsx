@@ -36,19 +36,19 @@ export default function ContactSection() {
     {
       icon: Mail,
       title: "Email",
-      value: "john@example.com",
-      href: "mailto:john@example.com",
+      value: "mayanksharma5104@gmail.com",
+      href: "mailto:mayanksharma5104@gmail.com",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+91 9875335104",
+      href: "tel:+9875335104",
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Gurugram, India",
       href: "#",
     },
   ]

@@ -9,7 +9,7 @@ import Image from "next/image"
 export default function HeroSection() {
   const [displayedText, setDisplayedText] = useState("")
   const [isTypingComplete, setIsTypingComplete] = useState(false)
-  const fullText = "Hi, I'm John Doe"
+  const fullText = "Hi, I'm Mayank Sharma"
 
   useEffect(() => {
     let currentIndex = 0
@@ -130,7 +130,7 @@ export default function HeroSection() {
               >
                 <Image
                   src="/placeholder.svg?height=400&width=400"
-                  alt="John Doe - Full-Stack Developer"
+                  alt="Mayank - Full-Stack Developer"
                   width={400}
                   height={400}
                   className="w-full h-full object-cover"

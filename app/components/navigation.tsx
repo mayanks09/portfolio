@@ -74,7 +74,7 @@ export default function Navigation() {
             transition={{ delay: 0.2 }}
             className="text-xl font-bold text-teal-400"
           >
-            JD
+            MS
           </motion.div>
 
           {/* Desktop Navigation */}

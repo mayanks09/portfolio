@@ -8,15 +8,15 @@ export default function SkillsSection() {
   const skillCategories = [
     {
       title: "Frontend",
-      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vue.js"],
+      skills: ["React", "Next.js", "Remix.js", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Bootstrap", "Material UI", "Shadcn UI", "Cypress"],
     },
     {
       title: "Backend",
-      skills: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB", "Redis"],
+      skills: ["Node.js", "Express", "Mongoose", "MongoDB"],
     },
     {
       title: "Tools & Others",
-      skills: ["Git", "Docker", "AWS", "Vercel", "Figma", "Jest"],
+      skills: ["Git", "Figma", "Postman"],
     },
   ]
 

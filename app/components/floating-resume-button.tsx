@@ -28,8 +28,8 @@ export default function FloatingResumeButton() {
   const handleDownload = () => {
     // Create a temporary link element to trigger download
     const link = document.createElement("a")
-    link.href = "/resume.pdf" // Replace with your actual resume file path
-    link.download = "John_Doe_Resume.pdf"
+    link.href = "/documents/my-resume.pdf" // Replace with your actual resume file path
+    link.download = "Mayank-Sharma-Resume.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)

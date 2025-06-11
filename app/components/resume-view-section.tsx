@@ -8,7 +8,7 @@ import { ExternalLink } from "lucide-react"
 export default function ResumeViewSection() {
   const handleViewResume = () => {
     // Replace this URL with your actual Google Drive resume link
-    const resumeUrl = "https://drive.google.com/file/d/your-resume-file-id/view"
+    const resumeUrl = "https://drive.google.com/file/d/1RheU6o62eW2-9-sg2qfaanzH6xzVOKQt/view?usp=drive_link"
     window.open(resumeUrl, "_blank", "noopener,noreferrer")
   }
 

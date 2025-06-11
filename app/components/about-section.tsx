@@ -37,7 +37,7 @@ export default function AboutSection() {
             About <span className="text-teal-400">Me</span>
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            I'm a passionate full-stack developer with 5+ years of experience building web applications. I love turning
+            I'm a passionate full-stack developer with 2+ years of experience building web applications. I love turning
             complex problems into simple, beautiful, and intuitive solutions.
           </p>
         </motion.div>

@@ -13,6 +13,7 @@ import FloatingResumeButton from "./components/floating-resume-button"
 
 export default function Portfolio() {
   const [mounted, setMounted] = useState(false)
+  const currentYear = new Date().getFullYear()
 
   useEffect(() => {
     setMounted(true)
@@ -42,7 +43,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="border-t border-slate-800 py-8">
         <div className="container mx-auto px-4 text-center text-slate-400">
-          <p>&copy; 2024 John Doe. All rights reserved.</p>
+          <p>&copy; {currentYear} Mayank Sharma. All rights reserved.</p>
         </div>
       </footer>
     </div>
